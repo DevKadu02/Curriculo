@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: OCR A Std, monospace;
+}
+
+.hd {
+    text-decoration: none;
+    color: #00FFFF;
+}
+
+.git {
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.header {
+    color: #00FFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+h1 {
+    padding-left: 10rem;
+    text-align: center;
+}
+
+.me {
+
+
+    padding-left: 12rem;
+    margin-top: 8rem;
+    padding-bottom: 5rem;
+
+
+}
+
+.summary {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    float: left;
+    width: 17rem;
+    height: 19rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+
+
+}
+
+.name {
+    font-size: 2rem;
+    color: #00FFFF;
+    text-align: center;
+}
+
+.formation {
+
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    padding-top: 5rem;
+    text-align: center;
+    flex: 10;
+}
+
+.exp,
+.education,
+.lang {
+    border: 1px solid #00FFFF;
+    margin: 50px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding: 1rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.education:hover {
+    box-shadow: 0 0 10px 5px #00FFFF;
+
+}
+.exp:hover {
+    box-shadow: 0 0 10px 5px #00FFFF;
+
+}
+.lang:hover {
+    box-shadow: 0 0 10px 5px #00FFFF;
+
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.html-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.css-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    width: 30%;
+
+}
+
+.js-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    width: 10%;
+}
+
+.java-bar {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    width: 60%;
+}
+
+i {
+    height: 0px;
+    padding-right: 1rem;
+}
+
+.linguagem,
+.formaçao,
+.experiencia {
+    color: #00FFFF;
+    padding-bottom: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+.cnt-rodape {
+    height: 0;
+    width: 0;
+    display: flex;
+}
