@@ -3,12 +3,17 @@ body {
     margin: 0%;
     padding: 0%;
     color: white;
-    font-family: OCR A Std, monospace;
+    font-family: Helvetica, sans-serif;
 }
 
 .hd {
     text-decoration: none;
     color: #00FFFF;
+    
+}
+.hd:hover{
+    text-shadow: 1px 1px 2px white;
+
 }
 
 .git {
@@ -42,6 +47,8 @@ h1 {
 }
 
 .summary {
+    padding: 0% 8% 0% 20%;
+    font-size: 1.5rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -52,19 +59,19 @@ img {
     width: 17rem;
     height: 19rem;
     padding-left: 10rem;
-    padding-top: 5rem;
+    padding-top: 10rem;
 
 
 }
 
 .name {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #00FFFF;
     text-align: center;
 }
 
 .formation {
-
+    font-size: 2rem;
     text-align: center;
 
 }
@@ -89,7 +96,9 @@ img {
     padding-bottom: 1rem;
     padding: 1rem;
     transition: box-shadow 0.3s ease;
+    font-size: 1.5rem;
 }
+
 
 .education:hover {
     box-shadow: 0 0 10px 5px #00FFFF;
@@ -104,7 +113,10 @@ img {
 
 }
 
+.git:hover{
+    text-shadow: 1px 1px 2px white;
 
+}
 .contact {
     display: flex;
     justify-content: space-around;
